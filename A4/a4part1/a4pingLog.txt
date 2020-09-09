@@ -1,0 +1,321 @@
+Script started on Thu Apr 30 06:15:03 2020
+[?1034hbash-3.2$ ./a4pingThread
+Step1. a4ping1 process starts. pid=19136
+Step2. Ready to read the input file: a3ping1Data.txt
+Step3. Input Data is: www.utdallas.edu 5 3
+
+Step4. Create Threads
+	Thread 1(tid=	Thread 1(tid=	Thread 1(tid=0x7000053c40000x700005341000) to run: ping -c 5www.utdallas.edu
+) to run: ping -c 0x700005447000) to run: ping -c 55www.utdallas.eduwww.utdallas.edu
+
+
+
+
+
+Step5. All Threads are terminated. The parent processing the results
+	Processing Thread 1 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=33.368 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=60.938 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=35.625 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=37.307 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=35.280 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.368/40.504/60.938/10.294 ms
+	Processing Thread 2 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=33.454 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=60.951 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=35.616 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=37.305 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=35.254 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.454/40.516/60.951/10.290 ms
+	Processing Thread 3 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=33.417 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=60.960 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=35.636 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=37.280 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=35.246 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.417/40.508/60.960/10.300 ms
+
+Step6. Summary of ping command
+	the input line: ping -c 5 www.utdallas.edu
+	total number of packets: 15
+	 end of case
+
+Step3. Input Data is: www.utdallas.edu 10 5
+
+Step4. Create Threads
+	Thread 1(tid=0x700005341000) to run: ping -c 10www.utdallas.edu
+
+	Thread 1(tid=0x7000053c4000) to run: ping -c 	Thread 110www.utdallas.edu
+	Thread 1(tid=0x7000054ca000) to run: ping -c 10(tid=
+www.utdallas.edu
+0x700005447000) to run: ping -c 10www.utdallas.edu
+
+	Thread 
+1(tid=0x70000554d000) to run: ping -c 10www.utdallas.edu
+
+
+Step5. All Threads are terminated. The parent processing the results
+	Processing Thread 1 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=35.527 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=54.277 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=37.082 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=34.826 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=36.835 ms
+64 bytes from 104.16.43.54: icmp_seq=5 ttl=55 time=36.069 ms
+64 bytes from 104.16.43.54: icmp_seq=6 ttl=55 time=37.259 ms
+64 bytes from 104.16.43.54: icmp_seq=7 ttl=55 time=33.148 ms
+64 bytes from 104.16.43.54: icmp_seq=8 ttl=55 time=34.862 ms
+64 bytes from 104.16.43.54: icmp_seq=9 ttl=55 time=34.231 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.148/37.412/54.277/5.760 ms
+	Processing Thread 2 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=35.538 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=54.289 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=37.455 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=34.984 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=36.788 ms
+64 bytes from 104.16.43.54: icmp_seq=5 ttl=55 time=36.021 ms
+64 bytes from 104.16.43.54: icmp_seq=6 ttl=55 time=37.246 ms
+64 bytes from 104.16.43.54: icmp_seq=7 ttl=55 time=34.375 ms
+64 bytes from 104.16.43.54: icmp_seq=8 ttl=55 time=34.861 ms
+64 bytes from 104.16.43.54: icmp_seq=9 ttl=55 time=34.204 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 34.204/37.576/54.289/5.678 ms
+	Processing Thread 3 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=35.530 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=54.297 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=37.062 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=34.782 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=36.974 ms
+64 bytes from 104.16.43.54: icmp_seq=5 ttl=55 time=36.063 ms
+64 bytes from 104.16.43.54: icmp_seq=6 ttl=55 time=37.268 ms
+64 bytes from 104.16.43.54: icmp_seq=7 ttl=55 time=33.118 ms
+64 bytes from 104.16.43.54: icmp_seq=8 ttl=55 time=34.864 ms
+64 bytes from 104.16.43.54: icmp_seq=9 ttl=55 time=34.188 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.118/37.415/54.297/5.771 ms
+	Processing Thread 4 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=35.428 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=54.241 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=34.772 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=34.768 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=36.986 ms
+64 bytes from 104.16.43.54: icmp_seq=5 ttl=55 time=34.856 ms
+64 bytes from 104.16.43.54: icmp_seq=6 ttl=55 time=37.295 ms
+64 bytes from 104.16.43.54: icmp_seq=7 ttl=55 time=34.382 ms
+64 bytes from 104.16.43.54: icmp_seq=8 ttl=55 time=35.249 ms
+64 bytes from 104.16.43.54: icmp_seq=9 ttl=55 time=34.209 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 34.209/37.219/54.241/5.758 ms
+	Processing Thread 5 result
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.43.54): 56 data bytes
+64 bytes from 104.16.43.54: icmp_seq=0 ttl=55 time=35.160 ms
+64 bytes from 104.16.43.54: icmp_seq=1 ttl=55 time=54.268 ms
+64 bytes from 104.16.43.54: icmp_seq=2 ttl=55 time=37.403 ms
+64 bytes from 104.16.43.54: icmp_seq=3 ttl=55 time=35.002 ms
+64 bytes from 104.16.43.54: icmp_seq=4 ttl=55 time=36.820 ms
+64 bytes from 104.16.43.54: icmp_seq=5 ttl=55 time=35.982 ms
+64 bytes from 104.16.43.54: icmp_seq=6 ttl=55 time=37.268 ms
+64 bytes from 104.16.43.54: icmp_seq=7 ttl=55 time=33.723 ms
+64 bytes from 104.16.43.54: icmp_seq=8 ttl=55 time=34.881 ms
+64 bytes from 104.16.43.54: icmp_seq=9 ttl=55 time=34.175 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.723/37.468/54.268/5.726 ms
+
+Step6. Summary of ping command
+	the input line: ping -c 10 www.utdallas.edu
+	total number of packets: 50
+	 end of case
+
+Step3. Input Data is: www.google.com 15 3
+
+Step4. Create Threads
+	Thread 1(tid=0x700005341000) to run: ping -c 15www.google.com
+
+	Thread 	Thread 11(tid=0x700005447000) to run: ping -c 15www.google.com
+
+(tid=0x7000053c4000) to run: ping -c 15www.google.com
+
+
+Step5. All Threads are terminated. The parent processing the results
+	Processing Thread 1 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=7.125 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=5.272 ms
+64 bytes from 172.217.6.132: icmp_seq=2 ttl=55 time=9.726 ms
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=26.991 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=6.263 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=7.223 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=5.515 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=7.573 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=6.135 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=6.166 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=7.386 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=5.903 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=7.164 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=11.436 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=5.354 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.272/8.349/26.991/5.235 ms
+	Processing Thread 2 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=7.102 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=5.230 ms
+64 bytes from 172.217.6.132: icmp_seq=2 ttl=55 time=9.722 ms
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=26.981 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=6.251 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=7.224 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=5.498 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=11.574 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=6.124 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=6.149 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=7.374 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=5.895 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=9.638 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=11.432 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=5.337 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.230/8.769/26.981/5.284 ms
+	Processing Thread 3 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=7.110 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=5.157 ms
+64 bytes from 172.217.6.132: icmp_seq=2 ttl=55 time=15.455 ms
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=26.979 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=6.248 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=7.218 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=5.510 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=7.552 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=6.134 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=6.157 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=7.370 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=5.890 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=9.637 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=11.441 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=5.343 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.157/8.880/26.979/5.516 ms
+
+Step6. Summary of ping command
+	the input line: ping -c 15 www.google.com
+	total number of packets: 45
+	 end of case
+
+Step3. Input Data is: www.google.com 15 3
+
+Step4. Create Threads
+	Thread 	Thread 1(tid=1(tid=0x700005447000) to run: ping -c 0x700005341000) to run: ping -c 1515	Thread 1(tid=www.google.com0x7000053c4000) to run: ping -c 15www.google.comwww.google.com
+
+
+
+
+
+
+Step5. All Threads are terminated. The parent processing the results
+	Processing Thread 1 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=13.918 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=8.560 ms
+64 bytes from 172.217.6.132: icmp_seq=2 ttl=55 time=48.300 ms
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=4.812 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=17.722 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=6.625 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=13.775 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=6.501 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=6.119 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=4.747 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=14.698 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=6.028 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=6.265 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=5.186 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=8.234 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.747/11.433/48.300/10.642 ms
+	Processing Thread 2 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=13.874 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=8.553 ms
+Request timeout for icmp_seq 2
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=4.827 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=17.706 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=6.633 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=13.779 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=6.509 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=5.848 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=6.848 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=14.714 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=6.004 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=5.714 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=4.578 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=6.377 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 14 packets received, 6.7% packet loss
+round-trip min/avg/max/stddev = 4.578/8.712/17.706/4.175 ms
+	Processing Thread 3 result
+PING www.google.com (172.217.6.132): 56 data bytes
+64 bytes from 172.217.6.132: icmp_seq=0 ttl=55 time=14.262 ms
+64 bytes from 172.217.6.132: icmp_seq=1 ttl=55 time=8.547 ms
+64 bytes from 172.217.6.132: icmp_seq=2 ttl=55 time=48.282 ms
+64 bytes from 172.217.6.132: icmp_seq=3 ttl=55 time=4.830 ms
+64 bytes from 172.217.6.132: icmp_seq=4 ttl=55 time=17.683 ms
+64 bytes from 172.217.6.132: icmp_seq=5 ttl=55 time=6.627 ms
+64 bytes from 172.217.6.132: icmp_seq=6 ttl=55 time=13.782 ms
+64 bytes from 172.217.6.132: icmp_seq=7 ttl=55 time=6.504 ms
+64 bytes from 172.217.6.132: icmp_seq=8 ttl=55 time=5.857 ms
+64 bytes from 172.217.6.132: icmp_seq=9 ttl=55 time=6.834 ms
+64 bytes from 172.217.6.132: icmp_seq=10 ttl=55 time=14.705 ms
+64 bytes from 172.217.6.132: icmp_seq=11 ttl=55 time=6.016 ms
+64 bytes from 172.217.6.132: icmp_seq=12 ttl=55 time=6.236 ms
+64 bytes from 172.217.6.132: icmp_seq=13 ttl=55 time=5.230 ms
+64 bytes from 172.217.6.132: icmp_seq=14 ttl=55 time=8.209 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.830/11.574/48.282/10.576 ms
+
+Step6. Summary of ping command
+	the input line: ping -c 15 www.google.com
+	total number of packets: 45
+	 end of case
+
+
+Step7. End of the program run
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 30 06:17:57 2020

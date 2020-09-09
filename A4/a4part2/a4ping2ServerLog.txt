@@ -1,0 +1,28 @@
+Script started on Thu Apr 30 11:41:31 2020
+[?1034hbash-3.2$ exit./a4pingThread
+bash: ./a4pingThread: No such file or directory
+bash-3.2$ ./a4pingServer 30000[K
+Step01. Server - Start with Port=3000
+	The server PID is :27150
+
+Server running...waiting for connections.
+Step07. Server - Input Data received: 
+Step08. Server - Fork child process
+19 0
+	Child Process (pid=0) to run: ping -c ê∫¢ˇ www.utdallas.edu
+Server Thu Apr 30 11:43:55 2020
+www.utdallas.edu ƒ‰˛
+Step09. Server - Sent the result of the ping command to the client via socket
+Could not send execution: Bad file descriptor
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+a4pingServer: sendto: No route to host
+^C
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 30 11:44:04 2020

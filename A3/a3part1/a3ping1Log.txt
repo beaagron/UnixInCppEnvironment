@@ -1,0 +1,109 @@
+Script started on Mon Apr  6 05:20:59 2020
+[?1034hbash-3.2$ make M[K-f Makefile
+g++ a3ping1.cpp -o a3ping1
+[1ma3ping1.cpp:84:23: [0m[0;1;35mwarning: [0m[1mconversion from string literal to 'char *' is
+      deprecated [-Wc++11-compat-deprecated-writable-strings][0m
+            argv[0] = "ping";
+[0;1;32m                      ^
+[0m[1ma3ping1.cpp:85:23: [0m[0;1;35mwarning: [0m[1mconversion from string literal to 'char *' is
+      deprecated [-Wc++11-compat-deprecated-writable-strings][0m
+            argv[1] = "-c"; 
+[0;1;32m                      ^
+[0m2 warnings generated.
+bash-3.2$ ./a3ping1
+Step1. a3ping1 process starts. pid=39799
+Step2. Ready to read the input file: a3ping1Data.txt
+Step3. Input Data is: www.utdallas.edu 5
+
+Step4. Fork child process
+	Child Process (pid=0) to run: ping -c 5www.utdallas.edu
+
+Step5. Output the result of the ping command
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.44.54): 56 data bytes
+64 bytes from 104.16.44.54: icmp_seq=0 ttl=55 time=6.161 ms
+64 bytes from 104.16.44.54: icmp_seq=1 ttl=55 time=7.518 ms
+64 bytes from 104.16.44.54: icmp_seq=2 ttl=55 time=7.709 ms
+64 bytes from 104.16.44.54: icmp_seq=3 ttl=55 time=4.512 ms
+64 bytes from 104.16.44.54: icmp_seq=4 ttl=55 time=5.367 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.512/6.253/7.709/1.228 ms
+Step3. Input Data is: www.utdallas.edu 10
+
+Step4. Fork child process
+	Child Process (pid=0) to run: ping -c 10www.utdallas.edu
+
+Step5. Output the result of the ping command
+PING www.utdallas.edu.cdn.cloudflare.net (104.16.44.54): 56 data bytes
+64 bytes from 104.16.44.54: icmp_seq=0 ttl=55 time=5.080 ms
+64 bytes from 104.16.44.54: icmp_seq=1 ttl=55 time=6.952 ms
+64 bytes from 104.16.44.54: icmp_seq=2 ttl=55 time=5.502 ms
+64 bytes from 104.16.44.54: icmp_seq=3 ttl=55 time=7.049 ms
+64 bytes from 104.16.44.54: icmp_seq=4 ttl=55 time=6.442 ms
+64 bytes from 104.16.44.54: icmp_seq=5 ttl=55 time=3.864 ms
+64 bytes from 104.16.44.54: icmp_seq=6 ttl=55 time=5.501 ms
+64 bytes from 104.16.44.54: icmp_seq=7 ttl=55 time=3.092 ms
+64 bytes from 104.16.44.54: icmp_seq=8 ttl=55 time=4.635 ms
+64 bytes from 104.16.44.54: icmp_seq=9 ttl=55 time=6.993 ms
+
+--- www.utdallas.edu.cdn.cloudflare.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.092/5.511/7.049/1.305 ms
+Step3. Input Data is: www.google.com 15
+
+Step4. Fork child process
+	Child Process (pid=0) to run: ping -c 15www.google.com
+
+Step5. Output the result of the ping command
+PING www.google.com (216.58.194.36): 56 data bytes
+64 bytes from 216.58.194.36: icmp_seq=0 ttl=50 time=8.115 ms
+64 bytes from 216.58.194.36: icmp_seq=1 ttl=50 time=7.722 ms
+64 bytes from 216.58.194.36: icmp_seq=2 ttl=50 time=4.605 ms
+64 bytes from 216.58.194.36: icmp_seq=3 ttl=50 time=6.180 ms
+64 bytes from 216.58.194.36: icmp_seq=4 ttl=50 time=5.853 ms
+64 bytes from 216.58.194.36: icmp_seq=5 ttl=50 time=7.029 ms
+64 bytes from 216.58.194.36: icmp_seq=6 ttl=50 time=6.297 ms
+64 bytes from 216.58.194.36: icmp_seq=7 ttl=50 time=7.086 ms
+64 bytes from 216.58.194.36: icmp_seq=8 ttl=50 time=7.653 ms
+64 bytes from 216.58.194.36: icmp_seq=9 ttl=50 time=7.812 ms
+64 bytes from 216.58.194.36: icmp_seq=10 ttl=50 time=7.410 ms
+64 bytes from 216.58.194.36: icmp_seq=11 ttl=50 time=9.050 ms
+64 bytes from 216.58.194.36: icmp_seq=12 ttl=50 time=7.953 ms
+64 bytes from 216.58.194.36: icmp_seq=13 ttl=50 time=7.864 ms
+64 bytes from 216.58.194.36: icmp_seq=14 ttl=50 time=7.047 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.605/7.178/9.050/1.053 ms
+Step3. Input Data is: www.google.com 15
+
+Step4. Fork child process
+	Child Process (pid=0) to run: ping -c 15www.google.com
+
+Step5. Output the result of the ping command
+PING www.google.com (216.58.194.36): 56 data bytes
+64 bytes from 216.58.194.36: icmp_seq=0 ttl=50 time=6.044 ms
+64 bytes from 216.58.194.36: icmp_seq=1 ttl=50 time=6.588 ms
+64 bytes from 216.58.194.36: icmp_seq=2 ttl=50 time=6.045 ms
+64 bytes from 216.58.194.36: icmp_seq=3 ttl=50 time=7.084 ms
+64 bytes from 216.58.194.36: icmp_seq=4 ttl=50 time=7.501 ms
+64 bytes from 216.58.194.36: icmp_seq=5 ttl=50 time=6.164 ms
+64 bytes from 216.58.194.36: icmp_seq=6 ttl=50 time=7.967 ms
+64 bytes from 216.58.194.36: icmp_seq=7 ttl=50 time=7.375 ms
+64 bytes from 216.58.194.36: icmp_seq=8 ttl=50 time=6.383 ms
+64 bytes from 216.58.194.36: icmp_seq=9 ttl=50 time=8.432 ms
+64 bytes from 216.58.194.36: icmp_seq=10 ttl=50 time=7.243 ms
+64 bytes from 216.58.194.36: icmp_seq=11 ttl=50 time=8.312 ms
+64 bytes from 216.58.194.36: icmp_seq=12 ttl=50 time=6.699 ms
+64 bytes from 216.58.194.36: icmp_seq=13 ttl=50 time=6.481 ms
+64 bytes from 216.58.194.36: icmp_seq=14 ttl=50 time=16.256 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.044/7.638/16.256/2.424 ms
+Step7. End of the program run
+bash-3.2$ exit
+exit
+
+Script done on Mon Apr  6 05:22:11 2020

@@ -1,0 +1,27 @@
+Script started on Thu Apr 30 11:42:31 2020
+[?1034hbash-3.2$ ./a4pingClient 127.0.0.1 3000
+Step02. Client - Start with IP=127.0.0.1 and Port=3000
+	The client PID is:27123
+Problem in connecting to the server: Connection refused
+bash-3.2$ ./a4pingClient 127.0.0.1 3000
+Step02. Client - Start with IP=127.0.0.1 and Port=3000
+	The client PID is:27136
+Problem in connecting to the server: Connection refused
+bash-3.2$ ./a4pingClient 127.0.0.1 3000[C[C[C[C[C[C[C[C[C[Cexit[K./a4pingThread[C[C[C[C[C[C[C[C[C[Cexit[K./a4pingClient 127.0.0.1 3000
+Step02. Client - Start with IP=127.0.0.1 and Port=3000
+	The client PID is:27152
+Step03. Client - Connected to Server
+Step04. Client - Ready to read the input file: a4ping2Data.txt
+Step01. Client - Input Data is: www.utdallas.edu 2
+waiting to get result...
+PING 3000 (0.0.11.184): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+Request timeout for icmp_seq 3
+Request timeout for icmp_seq 4
+^C
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 30 11:44:06 2020
